@@ -17,6 +17,6 @@ class MatriculaForm(forms.ModelForm):
             'ano_lectivo': forms.NumberInput(attrs={'class': 'form-control'}),
             'alumno': forms.Select(attrs={'class':'form-control'}),
             'nivel': forms.Select(attrs={'class':'form-control'}),
-            'status': forms.TextInput(attrs={'class':'form-control'})
+            'status': forms.Select(attrs={'class':'form-control'})
         }
         #roll_no = forms.IntegerField(widget=forms.NumberInput(attrs={'placeholder': 'Enter Roll', 'class': 'form-control'}))
